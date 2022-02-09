@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    align-items: center;
+    background-color: cadetblue;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+input{
+    border-radius: 5px;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+#caixa{
+    border-color: darkblue;
+    border-width: 1px;
+    border-style: dashed solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.altura{
+    margin: 2px;
+    background-color: inherit;
+}
+
+.massa{
+    margin: 2px;
+    background-color: inherit;
+}
+
+#result{
+    display: flex;
+    align-items: center;
+}

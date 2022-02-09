@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="caixa">
+        <div class="massa">
+            <label for="massa">Massa: </label>
+            <input type="text" id="massa">
+        </div>
+
+        <div class="altura">
+            <label for="altura">Altura: </label>
+            <input type="text" id="altura">
+        </div>
+
+
+        <div>
+            <button type="button" name="calcular" onclick="calcularIMC()">Enviar</button>
+        </div>
+
+        <div>
+            <button type="button" name="limpar" onclick="limpar()">Limpar</button>
+        </div>
+
+        <div id="result">
+            <div>
+                <p id="imc-result"></p>
+            </div>
+            <div>
+                <p id="frase"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
